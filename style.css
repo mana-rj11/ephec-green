@@ -4,9 +4,9 @@
 :root {
   --forest: #0A2F23;
   --forest-mid: #12503B;
-  --emerald: #10B981;
   --emerald-light: #34D399;
-  --emerald-pale: #A7F3D0;
+  --emerald-pale: #A7F3D0;  --emerald: #10B981;
+
   --mint: #D1FAE5;
   --mint-light: #ECFDF5;
   --amber: #F59E0B;

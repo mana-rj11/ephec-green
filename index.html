@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EPHEC Green — Prototype TFE</title>
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@500;700;800&display=swap" rel="stylesheet">
+    <!-- CSS externe -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="page">
 
-    <!-- ════════ HERO ════════ -->
+    <!-- ════════════════════════════════
+         HERO — Titre principal du TFE
+    ════════════════════════════════ -->
     <section class="hero">
         <div class="hero-chip">
             <span class="dot"></span>
@@ -24,14 +28,20 @@
         </p>
     </section>
 
-    <!-- ════════ 3 PHONES ════════ -->
+    <!-- ════════════════════════════════
+         3 ÉCRANS MOBILES
+    ════════════════════════════════ -->
     <section class="phones-section">
 
-        <!-- ══ PHONE 1 : ACCUEIL ══ -->
+        <!-- ──────────────────────────
+             PHONE 1 : ACCUEIL
+        ────────────────────────── -->
         <div class="phone-col">
             <div class="phone">
                 <div class="notch"></div>
                 <div class="phone-screen">
+
+                    <!-- Header vert avec stats -->
                     <div class="s1-hero">
                         <div class="s1-topbar">
                             <div class="s1-hello">
@@ -59,17 +69,40 @@
                             </div>
                         </div>
                     </div><!-- fin s1-hero -->
+
+                    <!-- Corps de l'accueil -->
                     <div class="s1-body">
+
+                        <!-- Accès rapide -->
                         <div class="sec-label">Accès rapide</div>
                         <div class="s1-quick">
-                            <div class="s1-qbtn"><div class="ico">📅</div><span>Agenda</span></div>
-                            <div class="s1-qbtn"><div class="ico">✍️</div><span>S'inscrire</span></div>
-                            <div class="s1-qbtn"><div class="ico">🏆</div><span>Badges</span></div>
-                            <div class="s1-qbtn"><div class="ico">💡</div><span>Proposer une idée</span></div>
+                            <div class="s1-qbtn">
+                                <div class="ico">📅</div>
+                                <span>Agenda</span>
+                            </div>
+                            <div class="s1-qbtn">
+                                <div class="ico">✍️</div>
+                                <span>S'inscrire</span>
+                            </div>
+                            <div class="s1-qbtn">
+                                <div class="ico">🏆</div>
+                                <span>Badges</span>
+                            </div>
+                            <div class="s1-qbtn">
+                                <div class="ico">💡</div>
+                                <span>Proposer une idée</span>
+                            </div>
                         </div>
+
+                        <!-- Prochains événements -->
                         <div class="sec-label">Prochains événements</div>
+
+                        <!-- Événement 1 -->
                         <div class="ev-card">
-                            <div class="ev-date green"><span class="d">15</span><span class="m">Mars</span></div>
+                            <div class="ev-date green">
+                                <span class="d">15</span>
+                                <span class="m">Mars</span>
+                            </div>
                             <div class="ev-info">
                                 <h4>Repair Café – Let's Fix IT</h4>
                                 <p>Répare ton matériel IT avec des bénévoles</p>
@@ -77,8 +110,13 @@
                             </div>
                             <div class="ev-action">+</div>
                         </div>
+
+                        <!-- Événement 2 -->
                         <div class="ev-card">
-                            <div class="ev-date amber"><span class="d">22</span><span class="m">Mars</span></div>
+                            <div class="ev-date amber">
+                                <span class="d">22</span>
+                                <span class="m">Mars</span>
+                            </div>
                             <div class="ev-info">
                                 <h4>Soirée Jeux Solidaires</h4>
                                 <p>Jeux de société &amp; échanges intercampus</p>
@@ -86,8 +124,13 @@
                             </div>
                             <div class="ev-action">+</div>
                         </div>
+
+                        <!-- Événement 3 -->
                         <div class="ev-card">
-                            <div class="ev-date violet"><span class="d">28</span><span class="m">Mars</span></div>
+                            <div class="ev-date violet">
+                                <span class="d">28</span>
+                                <span class="m">Mars</span>
+                            </div>
                             <div class="ev-info">
                                 <h4>Conf. Économie Circulaire</h4>
                                 <p>Intervenants externes + Q&amp;A étudiants</p>
@@ -95,13 +138,17 @@
                             </div>
                             <div class="ev-action">+</div>
                         </div>
+
                     </div><!-- fin s1-body -->
+
+                    <!-- Barre de navigation -->
                     <div class="bnav">
                         <div class="bnav-item on"><div class="bi">🏠</div><span>Accueil</span></div>
                         <div class="bnav-item"><div class="bi">📅</div><span>Agenda</span></div>
                         <div class="bnav-item"><div class="bi">📍</div><span>Campus</span></div>
                         <div class="bnav-item"><div class="bi">👤</div><span>Profil</span></div>
                     </div>
+
                 </div><!-- fin phone-screen -->
             </div><!-- fin phone -->
             <div class="phone-tag">
@@ -110,11 +157,15 @@
             </div>
         </div><!-- fin phone-col 1 -->
 
-        <!-- ══ PHONE 2 : AGENDA ══ -->
+        <!-- ──────────────────────────
+             PHONE 2 : AGENDA
+        ────────────────────────── -->
         <div class="phone-col">
             <div class="phone">
                 <div class="notch"></div>
                 <div class="phone-screen">
+
+                    <!-- Header agenda -->
                     <div class="s2-top">
                         <h2>📅 Agenda TES</h2>
                         <div class="sub">Toutes les actions écologiques &amp; sociales</div>
@@ -125,9 +176,14 @@
                             <div class="s2-mpill">Mai</div>
                             <div class="s2-mpill">Juin</div>
                         </div>
-                    </div><!-- fin s2-top -->
+                    </div>
+
+                    <!-- Corps agenda -->
                     <div class="s2-body">
+
+                        <!-- Jour 1 -->
                         <div class="s2-day">Lundi 10 mars</div>
+
                         <div class="s2-item t-eco">
                             <div class="s2-time">12h00</div>
                             <div class="s2-content">
@@ -137,6 +193,7 @@
                             </div>
                             <div class="s2-join">S'inscrire</div>
                         </div>
+
                         <div class="s2-item t-soc">
                             <div class="s2-time">17h30</div>
                             <div class="s2-content">
@@ -146,7 +203,10 @@
                             </div>
                             <div class="s2-join">S'inscrire</div>
                         </div>
+
+                        <!-- Jour 2 -->
                         <div class="s2-day">Mercredi 12 mars</div>
+
                         <div class="s2-item t-conf">
                             <div class="s2-time">14h00</div>
                             <div class="s2-content">
@@ -156,6 +216,7 @@
                             </div>
                             <div class="s2-join">S'inscrire</div>
                         </div>
+
                         <div class="s2-item t-eco">
                             <div class="s2-time">16h00</div>
                             <div class="s2-content">
@@ -165,7 +226,10 @@
                             </div>
                             <div class="s2-join">S'inscrire</div>
                         </div>
+
+                        <!-- Jour 3 -->
                         <div class="s2-day">Vendredi 14 mars</div>
+
                         <div class="s2-item t-sport">
                             <div class="s2-time">13h00</div>
                             <div class="s2-content">
@@ -175,14 +239,20 @@
                             </div>
                             <div class="s2-join">S'inscrire</div>
                         </div>
+
+                        <!-- Bouton proposer -->
                         <div class="s2-propose">💡 Proposer une action</div>
+
                     </div><!-- fin s2-body -->
+
+                    <!-- Barre de navigation -->
                     <div class="bnav">
                         <div class="bnav-item"><div class="bi">🏠</div><span>Accueil</span></div>
                         <div class="bnav-item on"><div class="bi">📅</div><span>Agenda</span></div>
                         <div class="bnav-item"><div class="bi">📍</div><span>Campus</span></div>
                         <div class="bnav-item"><div class="bi">👤</div><span>Profil</span></div>
                     </div>
+
                 </div><!-- fin phone-screen -->
             </div><!-- fin phone -->
             <div class="phone-tag">
@@ -191,11 +261,15 @@
             </div>
         </div><!-- fin phone-col 2 -->
 
-        <!-- ══ PHONE 3 : PROFIL & BADGES ══ -->
+        <!-- ──────────────────────────
+             PHONE 3 : PROFIL & BADGES
+        ────────────────────────── -->
         <div class="phone-col">
             <div class="phone">
                 <div class="notch"></div>
                 <div class="phone-screen">
+
+                    <!-- Header profil -->
                     <div class="s3-top">
                         <div class="s3-avatar">EA</div>
                         <div class="s3-name">Étudiant EPHEC</div>
@@ -207,13 +281,28 @@
                             </div>
                             <span class="s3-lvl-xp">650/1000 XP</span>
                         </div>
-                    </div><!-- fin s3-top -->
+                    </div>
+
+                    <!-- Corps profil -->
                     <div class="s3-body">
+
+                        <!-- Stats du profil -->
                         <div class="s3-pstats">
-                            <div class="s3-ps"><div class="s3-ps-n">3</div><div class="s3-ps-l">Actions</div></div>
-                            <div class="s3-ps"><div class="s3-ps-n">5</div><div class="s3-ps-l">Badges</div></div>
-                            <div class="s3-ps"><div class="s3-ps-n">650</div><div class="s3-ps-l">Points XP</div></div>
+                            <div class="s3-ps">
+                                <div class="s3-ps-n">3</div>
+                                <div class="s3-ps-l">Actions</div>
+                            </div>
+                            <div class="s3-ps">
+                                <div class="s3-ps-n">5</div>
+                                <div class="s3-ps-l">Badges</div>
+                            </div>
+                            <div class="s3-ps">
+                                <div class="s3-ps-n">650</div>
+                                <div class="s3-ps-l">Points XP</div>
+                            </div>
                         </div>
+
+                        <!-- Grille de badges -->
                         <div class="sec-label">Mes badges</div>
                         <div class="badges">
                             <div class="bdg"><div class="emoji">🌱</div><div class="bname">Premier Pas</div></div>
@@ -226,20 +315,38 @@
                             <div class="bdg locked"><div class="emoji">🔒</div><div class="bname">Mentor</div></div>
                             <div class="bdg locked"><div class="emoji">🔒</div><div class="bname">Expert TES</div></div>
                         </div>
+
+                        <!-- Carte d'impact -->
                         <div class="impact">
                             <div class="impact-h">📊 Mon impact concret</div>
-                            <div class="impact-row"><span class="il">Déchets collectés</span><span class="iv">2.4 kg</span></div>
-                            <div class="impact-row"><span class="il">Objets réparés</span><span class="iv">1</span></div>
-                            <div class="impact-row"><span class="il">Événements suivis</span><span class="iv">3</span></div>
-                            <div class="impact-row"><span class="il">Heures engagées</span><span class="iv">4h30</span></div>
+                            <div class="impact-row">
+                                <span class="il">Déchets collectés</span>
+                                <span class="iv">2.4 kg</span>
+                            </div>
+                            <div class="impact-row">
+                                <span class="il">Objets réparés</span>
+                                <span class="iv">1</span>
+                            </div>
+                            <div class="impact-row">
+                                <span class="il">Événements suivis</span>
+                                <span class="iv">3</span>
+                            </div>
+                            <div class="impact-row">
+                                <span class="il">Heures engagées</span>
+                                <span class="iv">4h30</span>
+                            </div>
                         </div>
+
                     </div><!-- fin s3-body -->
+
+                    <!-- Barre de navigation -->
                     <div class="bnav">
                         <div class="bnav-item"><div class="bi">🏠</div><span>Accueil</span></div>
                         <div class="bnav-item"><div class="bi">📅</div><span>Agenda</span></div>
                         <div class="bnav-item"><div class="bi">📍</div><span>Campus</span></div>
                         <div class="bnav-item on"><div class="bi">👤</div><span>Profil</span></div>
                     </div>
+
                 </div><!-- fin phone-screen -->
             </div><!-- fin phone -->
             <div class="phone-tag">
@@ -250,52 +357,121 @@
 
     </section><!-- fin phones-section -->
 
-    <!-- ════════ HYPOTHÈSES ════════ -->
+    <!-- ════════════════════════════════
+         RÉSULTATS — 3 Hypothèses validées
+    ════════════════════════════════ -->
     <section class="results">
         <div class="sec-h">
             <h2>Résultats de l'étude — 3 hypothèses validées</h2>
             <p>Étude quantitative · 96 répondants · Étudiants EPHEC (4 campus)</p>
         </div>
         <div class="hypo-grid">
+
+            <!-- H1 -->
             <div class="hypo-card">
                 <div class="hypo-chip"><span class="ck">✓</span> H1 VALIDÉE</div>
                 <h3>Méconnaissance des initiatives TES</h3>
-                <p>Une majorité d'étudiants ne connaît pas clairement les enjeux ni les dispositifs de transition écologique et sociale au sein de l'EPHEC. Le module Global Sustainable Management est quasiment inconnu.</p>
-                <div class="hypo-stat"><span class="num">72%</span><span class="txt">ne connaissent pas<br>les initiatives existantes</span></div>
+                <p>
+                    Une majorité d'étudiants ne connaît pas clairement les enjeux
+                    ni les dispositifs de transition écologique et sociale au sein
+                    de l'EPHEC. Le module Global Sustainable Management est
+                    quasiment inconnu.
+                </p>
+                <div class="hypo-stat">
+                    <span class="num">72%</span>
+                    <span class="txt">ne connaissent pas<br>les initiatives existantes</span>
+                </div>
             </div>
+
+            <!-- H2 -->
             <div class="hypo-card">
                 <div class="hypo-chip"><span class="ck">✓</span> H2 VALIDÉE</div>
                 <h3>Participation très faible malgré l'intérêt</h3>
-                <p>La participation aux activités liées à la TES est effectivement faible, alors que les étudiants expriment un intérêt marqué pour ces enjeux. Le paradoxe intérêt / action est confirmé.</p>
-                <div class="hypo-stat"><span class="num">85%</span><span class="txt">n'ont jamais participé<br>à une action TES</span></div>
+                <p>
+                    La participation aux activités liées à la TES est effectivement
+                    faible, alors que les étudiants expriment un intérêt marqué
+                    pour ces enjeux. Le paradoxe intérêt / action est confirmé.
+                </p>
+                <div class="hypo-stat">
+                    <span class="num">85%</span>
+                    <span class="txt">n'ont jamais participé<br>à une action TES</span>
+                </div>
             </div>
+
+            <!-- H3 -->
             <div class="hypo-card">
                 <div class="hypo-chip"><span class="ck">✓</span> H3 VALIDÉE</div>
                 <h3>Manque d'info = frein principal</h3>
-                <p>Le faible niveau de participation est étroitement lié à un manque d'information, de visibilité et de communication centralisée autour des initiatives de transition.</p>
-                <div class="hypo-stat"><span class="num">78%</span><span class="txt">favorables à<br>un outil digital</span></div>
+                <p>
+                    Le faible niveau de participation est étroitement lié à un manque
+                    d'information, de visibilité et de communication centralisée
+                    autour des initiatives de transition.
+                </p>
+                <div class="hypo-stat">
+                    <span class="num">78%</span>
+                    <span class="txt">favorables à<br>un outil digital</span>
+                </div>
             </div>
+
         </div>
     </section><!-- fin results -->
 
-    <!-- ════════ RECOMMANDATIONS ════════ -->
+    <!-- ════════════════════════════════
+         RECOMMANDATIONS OPÉRATIONNELLES
+    ════════════════════════════════ -->
     <section class="recos">
         <div class="sec-h">
             <h2>Recommandations opérationnelles</h2>
             <p>Issues de l'étude quantitative et qualitative</p>
         </div>
         <div class="reco-grid">
-            <div class="reco-c"><div class="reco-code">RO1</div><div class="ri">📱</div><h4>Plateforme centralisée TES</h4><p>Agenda, inscriptions, notifications, infos pratiques</p></div>
-            <div class="reco-c"><div class="reco-code">RO2</div><div class="ri">🔔</div><h4>Notifications ciblées</h4><p>Rappels avant chaque action via e-mails et l'appli</p></div>
-            <div class="reco-c"><div class="reco-code">RO3</div><div class="ri">🏆</div><h4>Valoriser l'engagement</h4><p>Badges, certificats, reconnaissance institutionnelle</p></div>
-            <div class="reco-c"><div class="reco-code">RO4</div><div class="ri">📊</div><h4>Impact concret visible</h4><p>Résultats chiffrés, témoignages, photos/vidéos</p></div>
-            <div class="reco-c"><div class="reco-code">RO5</div><div class="ri">🏫</div><h4>Adapter aux campus</h4><p>Actions sur chaque campus, horaires adaptés, courte durée</p></div>
+
+            <div class="reco-c">
+                <div class="reco-code">RO1</div>
+                <div class="ri">📱</div>
+                <h4>Plateforme centralisée TES</h4>
+                <p>Agenda, inscriptions, notifications, infos pratiques</p>
+            </div>
+
+            <div class="reco-c">
+                <div class="reco-code">RO2</div>
+                <div class="ri">🔔</div>
+                <h4>Notifications ciblées</h4>
+                <p>Rappels avant chaque action via e-mails et l'appli</p>
+            </div>
+
+            <div class="reco-c">
+                <div class="reco-code">RO3</div>
+                <div class="ri">🏆</div>
+                <h4>Valoriser l'engagement</h4>
+                <p>Badges, certificats, reconnaissance institutionnelle</p>
+            </div>
+
+            <div class="reco-c">
+                <div class="reco-code">RO4</div>
+                <div class="ri">📊</div>
+                <h4>Impact concret visible</h4>
+                <p>Résultats chiffrés, témoignages, photos/vidéos</p>
+            </div>
+
+            <div class="reco-c">
+                <div class="reco-code">RO5</div>
+                <div class="ri">🏫</div>
+                <h4>Adapter aux campus</h4>
+                <p>Actions sur chaque campus, horaires adaptés, courte durée</p>
+            </div>
+
         </div>
     </section><!-- fin recos -->
 
-    <!-- ════════ FOOTER ════════ -->
+    <!-- ════════════════════════════════
+         FOOTER
+    ════════════════════════════════ -->
     <div class="foot">
-        <p><strong>EPHEC Green</strong> — Prototype réalisé dans le cadre du TFE<br>Transition Écologique et Sociale · EPHEC · 2025–2026</p>
+        <p>
+            <strong>EPHEC Green</strong> — Prototype réalisé dans le cadre du TFE<br>
+            Transition Écologique et Sociale · EPHEC · 2025–2026
+        </p>
     </div>
 
 </div><!-- fin page -->
