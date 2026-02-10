@@ -4,6 +4,8 @@
 > Transition Écologique et Sociale · EPHEC · 2025–2026
 
 ![EPHEC Green Preview](Output1.png) 
+![EPHEC Green Preview](Output2.png) 
+![EPHEC Green Preview](Output3.png) 
 
 
 ---
