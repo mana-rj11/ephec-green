@@ -3,7 +3,7 @@
 > Prototype réalisé dans le cadre du **Travail de Fin d'Études** (TFE)
 > Transition Écologique et Sociale · EPHEC · 2025–2026
 
-![EPHEC Green Preview](preview.png)
+![EPHEC Green Preview](Output1.png)
 
 ---
 
